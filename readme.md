@@ -1,4 +1,4 @@
-# ProjectName: A Brief Description
+# Project Name: Nonconvex Performative Prediction
 
 [![arXiv](https://img.shields.io/badge/arXiv-2304.11327-brightgreen)](https://arxiv.org/abs/2405.17922)
 [![NeurIPS'24](https://img.shields.io/badge/Conference-NeurIPS'24-yellow)](https://neurips.cc/)
