@@ -32,11 +32,6 @@ class Simulation:
         self.prepare_data()
         self.optimizer = torch.optim.SGD(self.model.parameters(), lr=self.a0 / (self.a1 + np.sqrt(self.num_epoch * len(self.train_loader))))
 
-
-        params = sum(p.numel() for p in self.model.parameters() if p.requires_grad)
-        print(f"The model has {params} trainable parameters.")
-        exit(0)
-
         # MPI Setting
         self.comm = MPI.COMM_WORLD
         self.size = self.comm.Get_size()
