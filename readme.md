@@ -33,7 +33,7 @@ To reproduce our results, follow these steps:
       primaryClass={math.OC},
       url={https://arxiv.org/abs/2405.17922}, }
    ```
---
+---
 ## Structure of Codebase
 
 The whole code base contain four folder, corresponding to two main experiments presented in the paper:
